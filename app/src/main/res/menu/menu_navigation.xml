@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nvChat"
+        android:icon="@drawable/ic_chat"
+        android:title="Chats" />
+
+    <item
+        android:id="@+id/nvfriend"
+        android:icon="@drawable/ic_friend"
+        android:title="Friend" />
+
+    <item
+        android:id="@+id/nvAccount"
+        android:icon="@drawable/ic_user"
+        android:title="Account" />
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/aprofile_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/ausername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/aprofile_image"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_on"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="gone"
+        android:layout_below="@id/ausername"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="-8dp"
+        android:layout_toEndOf="@id/aprofile_image"
+        android:layout_toRightOf="@id/aprofile_image"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#05EB0D"
+        app:civ_border_width="10dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_off"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="gone"
+        android:layout_below="@id/ausername"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="-8dp"
+        android:layout_toEndOf="@id/aprofile_image"
+        android:layout_toRightOf="@id/aprofile_image"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#C4C4C4"
+        app:civ_border_width="10dp" />
+</RelativeLayout>
